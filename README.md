@@ -1,7 +1,7 @@
 # Invoice API — rescue demo
 
 A deliberately small invoice API, written the way AI-assisted tools often write it: it works on the happy path and breaks under retries.
-This repository shows a rescue from start to finish. Every step is a separate commit so you can see before and after.
+This repository shows two rescues from start to finish. The steps (before, failing test, fix) are listed in HISTORY.md.
 
 - `HISTORY.md` — the story step by step: app as received, failing test that reproduces the report, the fix.
 - `rescue/` — diagnosis, reproduction steps, proposed fix (written before the fix was made).
