@@ -1,0 +1,8 @@
+{
+  "name": "invoice-api-rescue-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Demo: rescuing a small AI-generated invoice API that creates duplicate invoices when a client retries.",
+  "scripts": { "test": "node --no-warnings --test test/*.test.js" },
+  "engines": { "node": ">=22.5" }
+}
